@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250CB4F015EA8F2800A6E157 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CB4EF15EA8F2800A6E157 /* UIKit.framework */; };
+		250CB4F215EA8F2800A6E157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CB4F115EA8F2800A6E157 /* Foundation.framework */; };
+		250CB4F415EA8F2800A6E157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CB4F315EA8F2800A6E157 /* CoreGraphics.framework */; };
+		250CB4FA15EA8F2800A6E157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250CB4F815EA8F2800A6E157 /* InfoPlist.strings */; };
+		250CB4FC15EA8F2800A6E157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CB4FB15EA8F2800A6E157 /* main.m */; };
+		250CB50015EA8F2800A6E157 /* TWLottoRandomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CB4FF15EA8F2800A6E157 /* TWLottoRandomAppDelegate.m */; };
+		250CB50315EA8F2800A6E157 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250CB50115EA8F2800A6E157 /* MainStoryboard.storyboard */; };
+		250CB50615EA8F2800A6E157 /* TWLottoRandomFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CB50515EA8F2800A6E157 /* TWLottoRandomFirstViewController.m */; };
+		250CB50815EA8F2800A6E157 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 250CB50715EA8F2800A6E157 /* first.png */; };
+		250CB50A15EA8F2800A6E157 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250CB50915EA8F2800A6E157 /* first@2x.png */; };
+		250CB50D15EA8F2800A6E157 /* TWLottoRandomSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CB50C15EA8F2800A6E157 /* TWLottoRandomSecondViewController.m */; };
+		250CB50F15EA8F2800A6E157 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 250CB50E15EA8F2800A6E157 /* second.png */; };
+		250CB51115EA8F2800A6E157 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250CB51015EA8F2800A6E157 /* second@2x.png */; };
+		250CB51815EA9ADE00A6E157 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 250CB51715EA9ADE00A6E157 /* whiteButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		250CB4EB15EA8F2700A6E157 /* TWLottoRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWLottoRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		250CB4EF15EA8F2800A6E157 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		250CB4F115EA8F2800A6E157 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		250CB4F315EA8F2800A6E157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		250CB4F715EA8F2800A6E157 /* TWLottoRandom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWLottoRandom-Info.plist"; sourceTree = "<group>"; };
+		250CB4F915EA8F2800A6E157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		250CB4FB15EA8F2800A6E157 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		250CB4FD15EA8F2800A6E157 /* TWLottoRandom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWLottoRandom-Prefix.pch"; sourceTree = "<group>"; };
+		250CB4FE15EA8F2800A6E157 /* TWLottoRandomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLottoRandomAppDelegate.h; sourceTree = "<group>"; };
+		250CB4FF15EA8F2800A6E157 /* TWLottoRandomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLottoRandomAppDelegate.m; sourceTree = "<group>"; };
+		250CB50215EA8F2800A6E157 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		250CB50415EA8F2800A6E157 /* TWLottoRandomFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLottoRandomFirstViewController.h; sourceTree = "<group>"; };
+		250CB50515EA8F2800A6E157 /* TWLottoRandomFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLottoRandomFirstViewController.m; sourceTree = "<group>"; };
+		250CB50715EA8F2800A6E157 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		250CB50915EA8F2800A6E157 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		250CB50B15EA8F2800A6E157 /* TWLottoRandomSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWLottoRandomSecondViewController.h; sourceTree = "<group>"; };
+		250CB50C15EA8F2800A6E157 /* TWLottoRandomSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWLottoRandomSecondViewController.m; sourceTree = "<group>"; };
+		250CB50E15EA8F2800A6E157 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		250CB51015EA8F2800A6E157 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		250CB51715EA9ADE00A6E157 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250CB4E815EA8F2700A6E157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250CB4F015EA8F2800A6E157 /* UIKit.framework in Frameworks */,
+				250CB4F215EA8F2800A6E157 /* Foundation.framework in Frameworks */,
+				250CB4F415EA8F2800A6E157 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250CB4E015EA8F2700A6E157 = {
+			isa = PBXGroup;
+			children = (
+				250CB4F515EA8F2800A6E157 /* TWLottoRandom */,
+				250CB4EE15EA8F2700A6E157 /* Frameworks */,
+				250CB4EC15EA8F2700A6E157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		250CB4EC15EA8F2700A6E157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250CB4EB15EA8F2700A6E157 /* TWLottoRandom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250CB4EE15EA8F2700A6E157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				250CB4EF15EA8F2800A6E157 /* UIKit.framework */,
+				250CB4F115EA8F2800A6E157 /* Foundation.framework */,
+				250CB4F315EA8F2800A6E157 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250CB4F515EA8F2800A6E157 /* TWLottoRandom */ = {
+			isa = PBXGroup;
+			children = (
+				250CB4FE15EA8F2800A6E157 /* TWLottoRandomAppDelegate.h */,
+				250CB4FF15EA8F2800A6E157 /* TWLottoRandomAppDelegate.m */,
+				250CB50115EA8F2800A6E157 /* MainStoryboard.storyboard */,
+				250CB50415EA8F2800A6E157 /* TWLottoRandomFirstViewController.h */,
+				250CB50515EA8F2800A6E157 /* TWLottoRandomFirstViewController.m */,
+				250CB51715EA9ADE00A6E157 /* whiteButton.png */,
+				250CB50715EA8F2800A6E157 /* first.png */,
+				250CB50915EA8F2800A6E157 /* first@2x.png */,
+				250CB50B15EA8F2800A6E157 /* TWLottoRandomSecondViewController.h */,
+				250CB50C15EA8F2800A6E157 /* TWLottoRandomSecondViewController.m */,
+				250CB50E15EA8F2800A6E157 /* second.png */,
+				250CB51015EA8F2800A6E157 /* second@2x.png */,
+				250CB4F615EA8F2800A6E157 /* Supporting Files */,
+			);
+			path = TWLottoRandom;
+			sourceTree = "<group>";
+		};
+		250CB4F615EA8F2800A6E157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				250CB4F715EA8F2800A6E157 /* TWLottoRandom-Info.plist */,
+				250CB4F815EA8F2800A6E157 /* InfoPlist.strings */,
+				250CB4FB15EA8F2800A6E157 /* main.m */,
+				250CB4FD15EA8F2800A6E157 /* TWLottoRandom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250CB4EA15EA8F2700A6E157 /* TWLottoRandom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250CB51415EA8F2800A6E157 /* Build configuration list for PBXNativeTarget "TWLottoRandom" */;
+			buildPhases = (
+				250CB4E715EA8F2700A6E157 /* Sources */,
+				250CB4E815EA8F2700A6E157 /* Frameworks */,
+				250CB4E915EA8F2700A6E157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWLottoRandom;
+			productName = TWLottoRandom;
+			productReference = 250CB4EB15EA8F2700A6E157 /* TWLottoRandom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250CB4E215EA8F2700A6E157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TWLottoRandom;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 250CB4E515EA8F2700A6E157 /* Build configuration list for PBXProject "TWLottoRandom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 250CB4E015EA8F2700A6E157;
+			productRefGroup = 250CB4EC15EA8F2700A6E157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250CB4EA15EA8F2700A6E157 /* TWLottoRandom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250CB4E915EA8F2700A6E157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250CB4FA15EA8F2800A6E157 /* InfoPlist.strings in Resources */,
+				250CB50315EA8F2800A6E157 /* MainStoryboard.storyboard in Resources */,
+				250CB50815EA8F2800A6E157 /* first.png in Resources */,
+				250CB50A15EA8F2800A6E157 /* first@2x.png in Resources */,
+				250CB50F15EA8F2800A6E157 /* second.png in Resources */,
+				250CB51115EA8F2800A6E157 /* second@2x.png in Resources */,
+				250CB51815EA9ADE00A6E157 /* whiteButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250CB4E715EA8F2700A6E157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250CB4FC15EA8F2800A6E157 /* main.m in Sources */,
+				250CB50015EA8F2800A6E157 /* TWLottoRandomAppDelegate.m in Sources */,
+				250CB50615EA8F2800A6E157 /* TWLottoRandomFirstViewController.m in Sources */,
+				250CB50D15EA8F2800A6E157 /* TWLottoRandomSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		250CB4F815EA8F2800A6E157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250CB4F915EA8F2800A6E157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		250CB50115EA8F2800A6E157 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250CB50215EA8F2800A6E157 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		250CB51215EA8F2800A6E157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		250CB51315EA8F2800A6E157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		250CB51515EA8F2800A6E157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWLottoRandom/TWLottoRandom-Prefix.pch";
+				INFOPLIST_FILE = "TWLottoRandom/TWLottoRandom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		250CB51615EA8F2800A6E157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWLottoRandom/TWLottoRandom-Prefix.pch";
+				INFOPLIST_FILE = "TWLottoRandom/TWLottoRandom-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250CB4E515EA8F2700A6E157 /* Build configuration list for PBXProject "TWLottoRandom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250CB51215EA8F2800A6E157 /* Debug */,
+				250CB51315EA8F2800A6E157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250CB51415EA8F2800A6E157 /* Build configuration list for PBXNativeTarget "TWLottoRandom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250CB51515EA8F2800A6E157 /* Debug */,
+				250CB51615EA8F2800A6E157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 250CB4E215EA8F2700A6E157 /* Project object */;
+}
